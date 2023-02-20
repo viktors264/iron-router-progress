@@ -2,11 +2,11 @@ Package.describe({
 	name    : 'multiply:iron-router-progress',
 	version : '1.0.2',
 	summary : 'Progressbar for iron:router',
-	git     : 'https://github.com/Multiply/iron-router-progress.git'
+	git     : 'https://github.com/viktors264/iron-router-progress.git'
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('METEOR@1.2');
+	api.versionsFrom('METEOR@2.1');
 
 	api.use([
 		'coffeescript',
@@ -15,7 +15,7 @@ Package.onUse(function (api) {
 		'templating',
 		'jquery',
 		'reactive-var',
-		'iron:router@1.0.0',
+		'iron:router@1.1.2',
 		'iron:layout@1.0.0'
 	], 'client');
 
